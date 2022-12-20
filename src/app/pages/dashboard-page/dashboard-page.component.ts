@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-dashboard-page',
@@ -6,5 +6,32 @@ import { Component } from '@angular/core';
   styleUrls: ['./dashboard-page.component.css']
 })
 export class DashboardPageComponent {
+  daftarFitur: any = [
+    {
+      "title": "Product Management",
+      "image": "https://picsum.photos/200/90?random1",
+      "link": ""
+    },
+    {
+      "title": "User Management",
+      "image": "https://picsum.photos/200/90?random2",
+      "link": ""
+    },
+    {
+      "title": "Sales Management",
+      "image": "https://picsum.photos/200/90?random3",
+      "link": ""
+    },
+    {
+      "title": "Task Management",
+      "image": "https://picsum.photos/200/90?random4",
+      "link": ""
+    },
+    {
+      "title": "Content Management",
+      "image": "https://picsum.photos/200/90?random5",
+      "link": ""
+    }
+  ];
 
 }
