@@ -9,13 +9,23 @@ import { NavBrandComponent } from './components/nav-brand/nav-brand.component';
 import {HttpClientModule} from "@angular/common/http";
 import {FormsModule} from "@angular/forms";
 import { DashboardPageComponent } from './pages/dashboard-page/dashboard-page.component';
+import { ProductListComponent } from './pages/product-list/product-list.component';
+import { ProductDetailComponent } from './pages/product-detail/product-detail.component';
+import { ProductEditComponent } from './components/product/product-edit/product-edit.component';
+import { ProductFormComponent } from './components/product/product-form/product-form.component';
+import { ToastGlobalComponent } from './components/toast-global/toast-global.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginPageComponent,
     NavBrandComponent,
-    DashboardPageComponent
+    DashboardPageComponent,
+    ProductListComponent,
+    ProductDetailComponent,
+    ProductEditComponent,
+    ProductFormComponent,
+    ToastGlobalComponent,
   ],
   imports: [
     BrowserModule,

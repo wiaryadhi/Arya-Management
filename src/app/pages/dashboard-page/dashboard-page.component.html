@@ -1,10 +1,11 @@
 <div class="container">
   <div class="row">
-    <div class="col-md-4" *ngFor="let fitur of daftarFitur">
+    <div class="col-md-4 mb-4" *ngFor="let fitur of daftarFitur">
       <div class="card mb-3 shadow">
         <img [src]="fitur.image" alt="" class="card-img-top">
         <div class="card-body">
           <h5 class="card-title">{{ fitur.title }}</h5>
+          <a [routerLink]="[fitur.link]" class="btn btn-primary">Akses</a>
         </div>
       </div>
     </div>
