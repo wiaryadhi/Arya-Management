@@ -14,6 +14,7 @@ import { ProductDetailComponent } from './pages/product-detail/product-detail.co
 import { ProductEditComponent } from './components/product/product-edit/product-edit.component';
 import { ProductFormComponent } from './components/product/product-form/product-form.component';
 import { ToastGlobalComponent } from './components/toast-global/toast-global.component';
+import { LandingPageComponent } from './pages/landing-page/landing-page.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { ToastGlobalComponent } from './components/toast-global/toast-global.com
     ProductEditComponent,
     ProductFormComponent,
     ToastGlobalComponent,
+    LandingPageComponent,
   ],
   imports: [
     BrowserModule,
