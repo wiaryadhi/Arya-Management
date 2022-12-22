@@ -1,10 +1,10 @@
 <nav class="navbar bg-dark navbar-dark mb-5">
   <div class="container-fluid">
-    <a href="home" class="navbar-brand">
+    <a href="/dashboard" class="navbar-brand">
       <img src="/assets/images/logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top"> Arya App
     </a>
-    <div class="d-flex" *ngIf="isLogin">
-      <button class="btn btn-outline-light" (click)="onLogout()">Logout</button>
+    <div class="d-flex" >
+      <button class="btn btn-outline-light" (click)="onLogout()" *ngIf="isLogin()">Logout</button>
     </div>
     </div>
 </nav>
