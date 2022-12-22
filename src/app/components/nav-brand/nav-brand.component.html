@@ -3,5 +3,8 @@
     <a href="home" class="navbar-brand">
       <img src="/assets/images/logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top"> Arya App
     </a>
+    <div class="d-flex" *ngIf="isLogin">
+      <button class="btn btn-outline-light" (click)="onLogout()">Logout</button>
+    </div>
     </div>
 </nav>
