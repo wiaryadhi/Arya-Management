@@ -1,5 +1,4 @@
 import {Component, OnInit} from '@angular/core';
-import {NgbAccordionConfig, NgbAccordionModule} from "@ng-bootstrap/ng-bootstrap";
 import {ProductService} from "../../services/product.service";
 import {IProduct, IProductWrapper} from "../../interfaces/i-product";
 
