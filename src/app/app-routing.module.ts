@@ -12,7 +12,7 @@ const routes: Routes = [
   {path: 'landing', component: LandingPageComponent},
   {path: 'dashboard', component: DashboardPageComponent, canActivate: [AuthGuardService]},
   {path: 'product', component: ProductListComponent, canActivate: [AuthGuardService]},
-  {path: '', redirectTo: 'login', pathMatch: "full"}
+  {path: '', redirectTo: 'landing', pathMatch: "full"}
 ];
 
 @NgModule({
